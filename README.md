@@ -7,7 +7,7 @@
 
   把心情写进今天，把日子收进书里。
 
-  [下载 Android 版](./download/question-diary-1.3.apk)　 ·　 [认识这本日记](#认识这本日记)　 ·　 [安装与使用](#安装与使用)
+  [下载 Android 版](./download/question-diary-1.3.apk)　 ·　 [中文](#给生活留一页空白)　 ·　 [English](#english)
 
   `版本 1.3`　 `Android`　 `本地记录`
 </div>
@@ -71,6 +71,48 @@ Android 应用和网页各自使用所在环境的本地数据。
 ```text
 18661f841792b331c82f75f1a1662c727ddeff96ad05d6f854e46a8051477ced
 ```
+
+---
+
+## English
+
+### A little space for everyday life
+
+Question Diary is a journal inspired by the warmth of a paper planner. Capture the small moments of today, plan the week ahead, and gather your memories into a book you can leaf through.
+
+The application interface is in Chinese.
+
+### Explore the app
+
+**Daily journal** · Write about what you accomplished, exercise, lucky moments, progress and expenses, or simply write freely. Choose your mood and the weather, customize the fields on the page, and decorate your entry with photos and stickers.
+
+**Weekly planner** · Add tasks for each day, organize them with colors and mark them as complete. See your weekly completion rate and generate a weekly summary in one of three styles with DeepSeek.
+
+**Lists** · Make a place for books to read, places to visit, and the little goals you want to achieve.
+
+**Journal overview** · Browse entries in calendar or list view, filter them by mood or weather, and see monthly statistics including writing days, streaks, moods and expenses.
+
+**Books** · Collect entries in your own journal books, turn the pages and personalize their covers.
+
+**Settings** · Choose a theme and font size, adjust the default journal fields, and export your entries as Markdown.
+
+### Install and use
+
+1. Download the [Question Diary 1.3 Android APK](./download/question-diary-1.3.apk).
+2. Open the APK on your Android device and follow the device's installation prompts.
+3. Open the app to explore the journal, weekly planner, lists, overview and books.
+
+Journal data is stored locally. Export any entries you want to keep before uninstalling. DeepSeek summaries require your own API key in Settings and send the relevant entries and plans to DeepSeek when generated.
+
+### Web files
+
+The `index.html` and associated assets in this repository come from the same Android APK. To view them on a computer, run the command below in the repository directory and visit `http://127.0.0.1:8000`.
+
+```bash
+python -m http.server 8000
+```
+
+The Android app and browser use separate local data. This repository presents the confirmed **1.3 final version** and its matching web build. The APK checksum is shown above.
 
 <div align="center">
   <br />
