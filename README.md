@@ -7,7 +7,7 @@
 
   把心情写进今天，把日子收进书里。
 
-  [下载 Android 版](./download/question-diary-1.3.apk) · [English](#english)
+  [体验网页](https://question-diary-intro.subtlebuckle3.chatgpt.site/) · [下载 Android 版](https://github.com/ligap123/question-diary/releases/download/android/question-diary.apk) · [English](#english)
 </div>
 
 ---
@@ -24,7 +24,7 @@
 
 ## 安装与使用
 
-下载 [Android 安装包](./download/question-diary-1.3.apk)，在设备上打开并按照系统提示安装。
+下载 [Android 安装包](https://github.com/ligap123/question-diary/releases/download/android/question-diary.apk)，在设备上打开并按照系统提示安装。
 
 日记等数据保存在本机，卸载前请通过设置中的导出功能保存需要的内容。DeepSeek 周总结需要自行填写 API Key，生成时会将相关记录和计划发送给 DeepSeek。
 
@@ -38,7 +38,7 @@ Question Diary is a journal inspired by the warmth of a paper planner. Capture e
 - **Journal overview** · Browse entries in a calendar or list, explore statistics, and filter by mood or weather.
 - **Books** · Collect your entries into books, personalize the covers and turn the pages.
 
-Download the [Android APK](./download/question-diary-1.3.apk) and follow the installation prompts on your device. The app interface is in Chinese.
+Download the [Android APK](https://github.com/ligap123/question-diary/releases/download/android/question-diary.apk) and follow the installation prompts on your device. The app interface is in Chinese.
 
 Journal data is stored locally. Export entries you want to keep before uninstalling. DeepSeek summaries require your own API key and send the relevant entries and plans to DeepSeek when generated.
 
