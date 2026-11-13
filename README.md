@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./icon-192.png" alt="「？」日记图标" width="112" />
+  <img src="./showcase/icon.svg" alt="「？」日记应用图标" width="96" />
 
   # 「？」日记
 
@@ -7,9 +7,7 @@
 
   把心情写进今天，把日子收进书里。
 
-  [下载 Android 版](./download/question-diary-1.3.apk)　 ·　 [中文](#给生活留一页空白)　 ·　 [English](#english)
-
-  `版本 1.3`　 `Android`　 `本地记录`
+  [下载 Android 版](./download/question-diary-1.3.apk) · [English](#english)
 </div>
 
 ---
@@ -18,105 +16,35 @@
 
 「？」日记是一款带有纸本手账气息的日记应用。写下今天的小事，安排一周的计划，也可以在想回看的时候，将过去的日子装订成一本可以翻阅的书。
 
-## 认识这本日记
-
-### 日记 · 一页一日
-
-在单页日记中记下完成的事、运动、小幸运、小进步和花销，也可以自由书写今天想说的话。选择心情与天气，按自己的习惯调整页面显示的内容。照片和贴纸可以为每一天留下不同的样子。
-
-### 周计划 · 把一周慢慢安排好
-
-按星期添加待办事项，用颜色区分计划，完成后轻点标记。页面会显示本周的计划完成率。需要整理这一周时，还可以选择文艺清新、抽象搞笑或刻薄吐槽风格，使用 DeepSeek 生成周总结。
-
-### 清单 · 装下想做的事
-
-新建清单，整理想读的书、想去的地方，或任何想逐一完成的小目标。
-
-### 记录 · 回看走过的日子
-
-在日历与列表中查阅记录，按心情或天气筛选。月度统计会展示记录天数、连续记录、常见心情和花销，让生活的变化有迹可循。
-
-### 书本 · 把日记收进册子
-
-创建属于自己的日记书，把写过的日子收录成册。翻开书页，重新遇见那些平常却值得记住的瞬间，还可以调整书本封面。
-
-### 设置 · 按喜欢的方式记录
-
-切换主题、调整字体大小和默认显示的日记内容，并在设置中导出 Markdown 记录。
+- **写日记** · 记录心情与天气、小幸运、小进步和花销，自由书写，并用照片与贴纸装点日记。
+- **做计划** · 按星期安排待办、查看完成进度，还可以使用 DeepSeek 生成周总结。
+- **整理清单** · 为想读的书、想去的地方或想完成的小事建立清单。
+- **回看记录** · 通过日历、列表和统计回顾日子，并按心情或天气筛选。
+- **翻阅书本** · 把日记收录成册，调整封面，翻页重温。
 
 ## 安装与使用
 
-1. 下载 [「？」日记 1.3 Android 安装包](./download/question-diary-1.3.apk)。
-2. 在 Android 设备上打开安装包并完成安装。系统提示时，请按设备上的说明允许安装。
-3. 打开应用，从「日记」「周计划」「清单」「记录」和「书本」开始使用。
+下载 [Android 安装包](./download/question-diary-1.3.apk)，在设备上打开并按照系统提示安装。
 
-日记等数据保存在本机，卸载应用前请先通过设置中的导出功能保存需要的内容。DeepSeek 周总结需要自行在设置中填写 API Key，生成时会将相关记录和计划发送给 DeepSeek。
-
-## 网页文件
-
-仓库根目录的 `index.html` 与 `assets` 等文件来自同一个 Android 安装包。需要在电脑上查看时，可以在仓库目录运行以下命令，再访问 `http://127.0.0.1:8000`。
-
-```bash
-python -m http.server 8000
-```
-
-Android 应用和网页各自使用所在环境的本地数据。
-
-## 关于此版本
-
-这里展示的是已确认的 **1.3 最终版**。仓库保留该版本的安装包和对应网页构建文件。
-
-安装包 SHA-256：
-
-```text
-18661f841792b331c82f75f1a1662c727ddeff96ad05d6f854e46a8051477ced
-```
-
----
+日记等数据保存在本机，卸载前请通过设置中的导出功能保存需要的内容。DeepSeek 周总结需要自行填写 API Key，生成时会将相关记录和计划发送给 DeepSeek。
 
 ## English
 
-### A little space for everyday life
+Question Diary is a journal inspired by the warmth of a paper planner. Capture everyday moments, plan your week and gather your memories into books you can leaf through.
 
-Question Diary is a journal inspired by the warmth of a paper planner. Capture the small moments of today, plan the week ahead, and gather your memories into a book you can leaf through.
+- **Journal** · Record your mood, weather, small wins and expenses. Add photos and stickers to your pages.
+- **Weekly planner** · Organize tasks by day, follow your progress and create a weekly summary with DeepSeek.
+- **Lists** · Keep track of books to read, places to visit and things to do.
+- **Journal overview** · Browse entries in a calendar or list, explore statistics, and filter by mood or weather.
+- **Books** · Collect your entries into books, personalize the covers and turn the pages.
 
-The application interface is in Chinese.
+Download the [Android APK](./download/question-diary-1.3.apk) and follow the installation prompts on your device. The app interface is in Chinese.
 
-### Explore the app
-
-**Daily journal** · Write about what you accomplished, exercise, lucky moments, progress and expenses, or simply write freely. Choose your mood and the weather, customize the fields on the page, and decorate your entry with photos and stickers.
-
-**Weekly planner** · Add tasks for each day, organize them with colors and mark them as complete. See your weekly completion rate and generate a weekly summary in one of three styles with DeepSeek.
-
-**Lists** · Make a place for books to read, places to visit, and the little goals you want to achieve.
-
-**Journal overview** · Browse entries in calendar or list view, filter them by mood or weather, and see monthly statistics including writing days, streaks, moods and expenses.
-
-**Books** · Collect entries in your own journal books, turn the pages and personalize their covers.
-
-**Settings** · Choose a theme and font size, adjust the default journal fields, and export your entries as Markdown.
-
-### Install and use
-
-1. Download the [Question Diary 1.3 Android APK](./download/question-diary-1.3.apk).
-2. Open the APK on your Android device and follow the device's installation prompts.
-3. Open the app to explore the journal, weekly planner, lists, overview and books.
-
-Journal data is stored locally. Export any entries you want to keep before uninstalling. DeepSeek summaries require your own API key in Settings and send the relevant entries and plans to DeepSeek when generated.
-
-### Web files
-
-The `index.html` and associated assets in this repository come from the same Android APK. To view them on a computer, run the command below in the repository directory and visit `http://127.0.0.1:8000`.
-
-```bash
-python -m http.server 8000
-```
-
-The Android app and browser use separate local data. This repository presents the confirmed **1.3 final version** and its matching web build. The APK checksum is shown above.
+Journal data is stored locally. Export entries you want to keep before uninstalling. DeepSeek summaries require your own API key and send the relevant entries and plans to DeepSeek when generated.
 
 <div align="center">
   <br />
   愿每一天，都有值得写下的小事。
-  <br /><br />
-  「？」日记 · 1.3
+  <br />
+  Write slowly. Live fully.
 </div>
